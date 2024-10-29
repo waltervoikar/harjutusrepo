@@ -1,0 +1,66 @@
+img {
+    width:auto;
+    border: blue solid;
+    border-width: 2px;
+    box-shadow: 5px 5px lightblue;
+}
+picture {
+    padding: 10px;
+}
+table {
+    margin: 20px;
+    margin-left: 5px;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 5px;
+}
+
+th {
+    color: blueviolet;
+}
+h1 {
+    text-align: center;
+    font-size: xx-large;
+    color:rgb(66, 17, 17)
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    color: darkgreen;
+    font-size: 22px;
+    text-align: left;
+
+}
+
+a:hover {
+    background-color: yellow;
+}
+
+ol{
+    list-style-type:decimal;
+    background: rgb(31, 119, 250);
+    padding: 20px;
+}
+ol li {
+    background: rgb(118, 169, 204);
+    margin: 3px;
+}
+
+html {
+    background: azure;
+}
+
+#div1{
+    float:left;
+}
+#div2{
+    float:right;
+}
+button {
+    margin-top: 15px;
+}

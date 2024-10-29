@@ -1,34 +1,27 @@
 <!DOCTYPE html>
 <meta charset="UTF-8">
-
-<style>
-    table, th, td {
-        border: 1px solid black;
-        border-collapse: collapse;
-    }
-    th, td {
-        padding: 5px;
-    }
-</style>
-<title>Lehe päis</title>
-
+<html lang="ee">
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Küpsised</title>
+</head>
+<div id="div1">
 <body>
-
 <h1>Küpsised</h1>
 <p>See on küpsiste veebileht. Küpsised on magusad.</p><br>
 <a href="https://sallysbakingaddiction.com/chewy-chocolate-chip-cookies/" target="_blank">Küpsiste retsept</a><br><br>
 <picture>
-    <img src="cookies.jpg" alt="Küpsiste pilt" style="width:auto">
+    <img src="cookies.jpg" alt="Küpsiste pilt">
 </picture>
 <h2>Küpsiste loetelu</h2>
 <ol>
     <li>Tervislikud küpsised
-        <ol type="a">
+        <ol >
             <li>Porgandiküpsised</li>
         </ol>
     </li>
     <li>Head küpsised
-        <ol type="a">
+        <ol>
             <li>Lehttaina-kaneeliküpsised</li>
             <li>Kaerahelbe-šokolaadiküpsised</li>
             <li>Kardemoni­küpsised</li>
@@ -36,9 +29,11 @@
         </ol>
     </li>
 </ol>
+</div>
+<div id = "div2">
 <table>
     <caption>Abistav tabel</caption>
-    <tr>
+    <tr class="t_head">
         <th>Küpsis</th>
         <th>Maitsem</th>
         <th>Vähem maitsev</th>
@@ -54,6 +49,10 @@
         <td></td>
     </tr>
 </table>
-
-<a href="teine.html">Teine leht</a>
+<a href="teine.html">Teine leht</a> <br>
+<button onclick="myFunction()">Click me</button>
+<p id="number"></p>
+</div>
+<script src="nupp.js"></script>
 </body>
+</html>
